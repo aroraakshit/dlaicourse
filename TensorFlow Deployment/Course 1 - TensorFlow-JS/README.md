@@ -7,6 +7,7 @@ This repository contains the examples and exercises that accompany Course 1 - Br
 python3 -m http.server 8000 --bind 10.0.0.113
 docker run -v ~/Documents/GitHub/:/home/jovyan/work --rm -p 8888:8888 jupyter/minimal-notebook:latest
 ```
+tfjs latest docs: https://js.tensorflow.org/api/latest/ 
 
 # Setting Up
 
