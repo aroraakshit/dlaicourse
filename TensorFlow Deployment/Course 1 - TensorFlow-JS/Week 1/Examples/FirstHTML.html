@@ -5,7 +5,7 @@
         async function doTraining(model){
             const history = 
                   await model.fit(xs, ys, 
-                        { epochs: 500,
+                        { epochs: 1500,
                           callbacks:{
                               onEpochEnd: async(epoch, logs) =>{
                                   console.log("Epoch:" 
